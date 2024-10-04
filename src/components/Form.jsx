@@ -58,7 +58,7 @@ function Form() {
     }
     fetchCityData();
     console.log(cityName);
-  }, [lat, lng]);
+  }, [cityName, lat, lng]);
 
   async function handleSubmit(e) {
     e.preventDefault();
