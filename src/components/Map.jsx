@@ -13,7 +13,7 @@ import Button from './Button';
 import { useCities } from '../context/CitiesContext';
 
 import { useEffect } from 'react';
-import { useUrlPostion } from '../hooks/useURLPosition';
+import { useUrlPostion } from '../hooks/useUrlPosition';
 import { useGeolocation } from '../hooks/useGeolocation';
 
 function Map() {
